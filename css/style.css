@@ -1,0 +1,219 @@
+
+.body{
+    max-width: 1920px;
+    background: #f6f7f8;
+    font-family: 'Manrope','sans-serif';
+}
+
+.container {
+    width: 100%;
+    height: 2290px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Начало кода */
+.header {
+background: #eee;
+}
+/* Навигация */
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 1100px;
+margin-left: 70px;
+margin-right: auto;
+}
+/* Ссылка на другую страницу */
+.navbar {
+display: flex;
+column-gap: 16px;
+padding-left: 59%;
+margin: 0;
+list-style-type: none;
+}
+/* Основные шрифты */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary, #121212);
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+}
+
+p{
+    color: var(--text-body, #404040);
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+}
+
+.navbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 40%;
+    margin-left: 100px;
+}
+
+.navbar-a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.header-title {
+    width: 53%;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 128%;
+}
+/* 
+.header-desc {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 144%;
+} */
+
+.header-desc{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    width: 52%;
+    text-indent:50px;
+    font-size: 19px;
+    margin-left:20px;
+    margin-top: -58px;
+}
+
+.head-menu {
+    width: 32%;
+    border-radius: 40px;
+    background: #E9EFF6;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 48px;
+    padding: 89.5px 470px 96.5px 96px;
+
+}
+
+.head-menu_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 73%;
+}
+.head-menu_desc {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 128%;
+}
+.head-menu_img{
+    width: 168px;
+    height: 168px;
+}
+
+.menu-block {
+    background: var(--brand-primary-1, #F4DE49);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+    padding: 120px 128px;
+    margin-top: 120px;
+}
+
+.menu-block_list{
+    list-style-type: none; 
+    counter-reset: num;
+    margin: 0 0 0 60px;
+    padding: 15px 0 5px 0;
+    font-size: 24px;
+    width: 48%;
+    position: relative;  
+}
+.menu-block_list li {
+    position: relative;  
+    margin: 0 0 0 0;
+    padding: 0 0 10px 0;
+    line-height: 1.4;
+}
+.menu-block_list li:before {
+    content: counter(num);
+    counter-increment: num;
+    display: inline-block;
+    position: absolute;
+    top: -1px;
+    left: -53px;
+    width: 39px;
+    height: 38px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    line-height: 37px;
+    font-size: 29px;
+    border-radius: 50%;
+}
+
+
+.menu-block_title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 128%;
+}
+
+.menu-block_title_h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.menu-block_desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 144%;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.menu-block_footer {
+    background-color: #FFF;
+    border-radius: 40px;
+    padding: 0 22px;    
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+.menu-footer_title {
+    width: 80%;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 128%;
+}
+.menu-block_img {
+    position: absolute;
+    width: 228px;
+    height: 120.291px;
+    right: -100px;
+    top: 37px;
+}
