@@ -27,6 +27,10 @@ margin-left: 70px;
 margin-right: auto;
 }
 /* Ссылка на другую страницу */
+.for>a{
+    text-decoration: none;
+    color: #000;
+}
 .navbar {
 display: flex;
 column-gap: 16px;
@@ -198,7 +202,7 @@ header {
     background-color: #FFF;
     border-radius: 40px;
     padding: 0 22px;    
-    width: 45%;
+    width: 53%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -206,14 +210,14 @@ header {
 }
 .menu-footer_title {
     width: 80%;
-    font-size: 40px;
+    font-size: 33px;
     font-weight: 300;
     line-height: 128%;
 }
 .menu-block_img {
     position: absolute;
-    width: 228px;
-    height: 120.291px;
-    right: -100px;
-    top: 37px;
+    width: 219px;
+    height: 116.291px;
+    right: -111px;
+    top: 18px;
 }
